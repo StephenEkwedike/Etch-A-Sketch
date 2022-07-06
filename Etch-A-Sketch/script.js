@@ -1,5 +1,11 @@
+const body = document.querySelector('body')
 const container = document.querySelector('.container');
 const btn = document.querySelector('.btn')
+const hr = document.createElement('hr');
+
+hr.setAttribute('width', '500px')
+hr.style['color'] = 'white';
+body.insertBefore(hr,container)
 //numbox = size of grid, e.g. 10 x 10
 // how many sqs? -> 10 ; numbox = 10 & size of sqs = 600/10 
 //const numBox = parseInt(prompt("Enter a number", "0"));
